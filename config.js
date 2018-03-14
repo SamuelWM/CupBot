@@ -2,23 +2,23 @@ module.exports = {
 
 	// Your bot name. Typically, this is your bot's username without the discriminator.
 	// i.e: if your bot's username is MemeBot#0420, then this option would be MemeBot.
-	name: "ScheduleBot",
+	name: "CupBot",
 
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
-	//      whereas "ScheduleBot foo" will do nothing at all.
+	//      whereas "CupBot foo" will do nothing at all.
 	prefix:  "-schedulebot", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
 	                         // be a mention to your bot.
 
 	// Admin app settings
 	admin_app: {
-		desc: "ScheduleBot admin commands",
+		desc: "CupBot admin commands",
 		prefix: "schedulebot-admin"
 	},
 
 	// The master channel
 	// The bot will announce the events to this channel. It won't listen to other channels.
-	master_channel: "YOUR_MASTER_CHANNEL",
+	master_channel: "364924756950253572",
 
 	// Events are considered "happening" for a margin of time, where users can see that the event
 	// is happening right now. During that time, the event is not considered expired yet.+
@@ -26,11 +26,11 @@ module.exports = {
 	happening_margin: 60000 * 5, // In milliseconds
 
 	// Update interval
-	// Every X milliseconds, ScheduleBot will update all active summaries.
+	// Every X milliseconds, CupBot will update all active summaries.
 	update_interval: 60000, // In milliseconds
 
 	// List of accepted timezones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-	default_timezone: "Europe/Madrid",
+	default_timezone: "America/New_York",
 
 	// If this option is enabled, the bot will delete the message that triggered it, and its own
 	// response, after the specified amount of time has passed.
