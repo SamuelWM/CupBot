@@ -2,7 +2,7 @@
 	"name":"cupbot",
 	"version":"1.0.0",
 	"description":"Bot that schedules stuff",
-	"homepage":"https://nothinghere.com",
+	"homepage":"git+https://github.com/SamuelWM/CupBot.git",
 	"author":"Some guy with a computer",
 	"files":[
 		"lib"
@@ -39,7 +39,7 @@
 		"pg":"^6.1.0"
 	},
 	"bugs":{
-		"url":"https://nothinghere.com"
+		"url":"git+https://github.com/SamuelWM/CupBot.git"
 	},
 	"engines":{
 		"node": "6.3.1"
