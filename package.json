@@ -2,7 +2,7 @@
 	"name":"cupbot",
 	"version":"1.0.0",
 	"description":"Bot that schedules stuff",
-	"homepage":"git+https://github.com/SamuelWM/CupBot.git",
+	"homepage":"https://github.com/SamuelWM/CupBot/blob/master/README.md",
 	"author":"Some guy with a computer",
 	"files":[
 		"lib"
@@ -39,7 +39,7 @@
 		"pg":"^6.1.0"
 	},
 	"bugs":{
-		"url":"git+https://github.com/SamuelWM/CupBot.git"
+		"url":"https://github.com/SamuelWM/CupBot/issues"
 	},
 	"engines":{
 		"node": "6.3.1"
