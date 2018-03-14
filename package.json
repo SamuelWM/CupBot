@@ -1,0 +1,47 @@
+﻿{
+	"name":"cupbot",
+	"version":"1.0.0",
+	"description":"Bot that schedules stuff",
+	"homepage":"https://nothinghere.com",
+	"author":"Some guy with a computer",
+	"files":[
+		"lib"
+	],
+	"main":"lib/index.js",
+	"keywords":[
+		"discord bot",
+		"scheduling",
+		"schedule"
+	],
+	"scripts":{
+		"bot":"node ./lib/index.js",
+		"setup":"node ./setup.js",
+		"prepublish":"gulp nsp",
+		"postinstall":"node ./postinstall.js"
+	},
+	"devDependencies":{
+		"gulp":"^3.9.0",
+		"gulp-plumber":"^1.0.0",
+		"gulp-nsp":"^2.1.0"
+	},
+	"repository":{
+		"type":"git",
+		"url":"git+https://github.com/SamuelWM/CupBot.git"
+	},
+	"license":"Apache-2.0",
+	"dependencies":{
+		"clapp":"^1.0.1",
+		"discord.js":"^10.0.1",
+		"inquirer":"^1.2.2",
+		"knex":"^0.12.6",
+		"moment":"^2.15.1",
+		"moment-timezone":"^0.5.6",
+		"pg":"^6.1.0"
+	},
+	"bugs":{
+		"url":"https://nothinghere.com"
+	},
+	"engines":{
+		"node": "6.3.1"
+	}
+}
